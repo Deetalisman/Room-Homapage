@@ -88,7 +88,7 @@ main {
   display: flex;
 }
 .sub-main {
-  padding: 4rem 3rem;
+  padding: 1.5rem 3rem 1rem;
 }
 .sub-main h2 {
   font-family: sans-serif;
@@ -97,6 +97,9 @@ main {
 .sub-main p {
   margin-top: 1rem;
   color: gray;
+}
+main img {
+  height: 15rem;
 }
 @media screen and (max-width: 1300px) {
   .head2 {
