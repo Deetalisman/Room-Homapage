@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+}
+.head1 {
+  background-image: url(./images/desktop-image-hero-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65vh;
+  width: 55%;
+  color: white;
+  display: flex;
+  padding: 3rem;
+}
+.head11 {
+  background-image: url(./images/desktop-image-hero-2.jpg);
+  background-repeat: no-repeat;
+  height: 65vh;
+  width: 55%;
+}
+.head12 {
+  background-image: url(./images/desktop-image-hero-3.jpg);
+  background-repeat: no-repeat;
+  height: 65vh;
+  width: 55%;
+}
+.head1 ul {
+  list-style-type: none;
+  margin-top: 0.4rem;
+  margin-left: 2rem;
+}
+.head1 ul li {
+  display: inline-block;
+  margin: 0 0.7rem;
+  cursor: pointer;
+}
+.second-head {
+  width: 45%;
+  margin: 0;
+}
+.head2 {
+  padding: 7rem 5rem 4.6rem;
+}
+#close {
+  display: none;
+}
+#ham {
+  display: none;
+}
+.head2 h1 {
+  font-family: sans-serif;
+  font-size: 2.4rem;
+}
+.sub-head2-p {
+  margin-top: 1.6rem;
+  color: gray;
+}
+.sub-head2-p2 {
+  margin-top: 1rem;
+  letter-spacing: 1.5rem;
+}
+#shop {
+  display: flex;
+}
+#arrow {
+  width: 3rem;
+  height: 1.5rem;
+  margin-top: 0.7rem;
+}
+.parse {
+  display: flex;
+}
+.next,
+.back {
+  background-color: black;
+  color: white;
+  width: 5rem;
+  height: 4.4rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+}
+main {
+  display: flex;
+}
+.sub-main {
+  padding: 4rem 3rem;
+}
+.sub-main h2 {
+  font-family: sans-serif;
+  letter-spacing: 0.7rem;
+}
+.sub-main p {
+  margin-top: 1rem;
+  color: gray;
+}
+@media screen and (max-width: 1300px) {
+  .head2 {
+    padding: 4rem 3rem 5rem;
+  }
+  .sub-main {
+    padding: 2rem 2rem 0;
+  }
+  .head1 {
+    height: 60vh;
+  }
+  main img {
+    height: 20rem;
+    width: 23rem;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .head2 {
+    padding: 3.9rem 2rem 4rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  main img {
+    height: 19rem;
+    width: 18rem;
+  }
+  .sub-main {
+    padding: 2rem 2rem 0.7rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .head2 h1 {
+    font-size: 2rem;
+  }
+  .head2 {
+    padding: 2.4rem 2rem 3rem;
+  }
+  main img {
+    height: 19rem;
+    width: 15rem;
+  }
+  .sub-head2-p2 {
+    margin-top: 1rem;
+    letter-spacing: 1rem;
+  }
+  .sub-main h2 {
+    font-family: sans-serif;
+    letter-spacing: 0.4rem;
+  }
+}
+@media screen and (max-width: 810px) {
+  header {
+    display: block;
+    position: relative;
+  }
+  .head1 {
+    width: 100%;
+  }
+  .second-head {
+    width: 100%;
+  }
+  main {
+    display: block;
+  }
+  main img {
+    width: 100%;
+    height: 25rem;
+  }
+  .sub-main {
+    padding: 2rem;
+  }
+  .parse {
+    position: absolute;
+    right: 0;
+    top: 24.3rem;
+  }
+  ul {
+    position: absolute;
+    top: -0.4rem;
+    left: -1.9rem;
+    width: 99.7%;
+    background-color: white;
+    color: black;
+    height: 6rem;
+    padding-left: 2rem;
+    padding-top: 2.2rem;
+    display: none;
+  }
+  ul li {
+    font-size: 1.2rem;
+  }
+  .show {
+    display: flex;
+  }
+  #close {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  #ham {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+  }
+  .head1 h2 {
+    margin-left: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  main img {
+    width: 100%;
+    height: 20rem;
+  }
+  header {
+    width: 100%;
+  }
+  .head1 {
+    background-image: url(./images/mobile-image-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+  }
+  .head11 {
+    background-image: url(./images/mobile-image-hero-2.jpg);
+    background-repeat: no-repeat;
+  }
+  .head12 {
+    background-image: url(./images/mobile-image-hero-3.jpg);
+    background-repeat: no-repeat;
+  }
+}
